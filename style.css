@@ -1,0 +1,58 @@
+.p-destaque {
+    font-weight: bold;
+  }
+  
+.p-sublinhado {
+    text-decoration: underline;
+  }
+  
+.p-italico {
+    font-style: italic;
+  }
+  
+#proxo {
+    color: rgb(191, 0, 255);
+  }
+  
+#centralizado {
+    text-align: center;
+    
+  }
+
+  .for {
+    width: 450px;
+    height: 690px;
+    top: 30px;
+    left: 400px;
+    border: 10px double rgb(0, 0, 0);
+    position: absolute;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 10px 10px 10px #0c0c0c;
+    background: linear-gradient(#a09d9d, hsl(0, 0%, 100%)) ;
+    
+
+  }
+
+  body {
+    background-color: #bcbfb1;
+  }
+
+  
+  input {
+    border-radius: 5px;
+    padding: 2px;
+    margin: 2px;
+ }
+ 
+ 
+ input:invalid + span:after {
+    content: "✖";
+    padding-left: 5px;
+ }
+ 
+ 
+ input:valid + span:after {
+    content: "✓";
+    padding-left: 5px;
+ }

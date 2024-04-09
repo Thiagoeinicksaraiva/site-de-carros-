@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulário </title>
+</head>
+
+<body>
+
+
+ 
+<form class="for" 
+name="pedido"
+method="post"
+action="resultado.html"
+autocomplete="on"
+target="_self"
+enctype="application/x-www-form-urlencoded"
+novalidate>
+
+
+
+<h1 id="centralizado">Formulário</h1>
+
+<br>
+Nome:<br>
+<input type="text" name="Nome" size="20" required/>
+<br>
+Idade:<br>
+<input type="number" name="number" size="20">
+<br>
+Data de Nascimento:<br>
+<input type="date"  name="data"><br>
+<br>
+Telefone<br>
+<input type=“tel” pattern=”\d{2} \d{5}-\d{4}$”>
+<br>
+Endereço:<br>
+<textarea name="Endereço" rows="3" cols="22"></textarea>
+<br>
+EScolha seus arquivos:<br>
+<input type="file" name="Nome" size="20">
+<br>
+Estado Civil:<br>
+<select name="EstadoCivil">
+<option value="1">Solteiro</option>
+<option value="2">Casado</option>
+</select><br>
+Sexo:<br>
+    Masculino<input type="radio" name="Sexo" value="M">
+    Feminino<input type="radio" name="Sexo" value="F"><br>
+    Meio de locomoção:<br>
+    <input type="checkbox" name="locomocao" value="V">Veículo próprio<br>
+    <input type="checkbox" name="locomocao" value="C">Coletivo<br>
+    <input type="checkbox" name="locomocao" value="8">Bicicleta<br>
+
+    Senha:<br>
+    <input type="password" name="Senha" size="20">
+    <input type="submit" name="Envien" value="Enviar">
+    <input type="reset" name="Limpar" value="Limpar">
+    
+
+
+</form>
+
+</body>
+</html>
